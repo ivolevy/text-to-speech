@@ -49,6 +49,16 @@ body{
 }
 
 .voice{
-    margin-left: -234px;
+    margin-left: -244px;
     border: 1px solid rgb(99, 47, 255);
+}
+
+.labelVoice{
+    color: white;
+    margin-left: -350px;
+}
+
+/* media queries */
+@media only screen and (max-width: 540px){
+    
 }
