@@ -59,6 +59,11 @@ body{
 }
 
 /* media queries */
-@media only screen and (max-width: 540px){
-    
+@media(max-width: 540px){
+    .text{
+        width: 100%;
+    }
+    .voice{
+        margin: 0;
+    }
 }

@@ -1,5 +1,5 @@
 window.addEventListener('load', function(){
-    let name = prompt('whats ur name');
+    //let name = prompt('whats ur name');
     localStorage.setItem('user-name', name);
     let username = this.localStorage.getItem('user-name')
     let finalText = document.querySelector('.name').innerHTML = 'Hi '+ username + ', type what u want to be speech!';  
