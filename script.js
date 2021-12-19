@@ -3,7 +3,9 @@ window.addEventListener('load', function(){
     localStorage.setItem('user-name', name);
     let username = this.localStorage.getItem('user-name')
     let finalText = document.querySelector('.name').innerHTML = 'Hi '+ username + ', type what u want to be speech!';  
-       
+    if(name == null){
+        finalText = document.querySelector('.name').innerHTML = 'Hi, type what u want to be speech!';
+    }
 })
 
     let start = document.getElementById('start')
