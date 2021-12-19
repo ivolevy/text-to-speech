@@ -66,4 +66,7 @@ body{
     .voice{
         margin: 0;
     }
+    .send i{
+        display: none;
+    }
 }
